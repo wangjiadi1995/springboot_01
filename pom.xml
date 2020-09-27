@@ -11,7 +11,10 @@
         <java.version>1.8</java.version>
     </properties>
 
-    <!--springboot项目都要继承springboot父工程-->
+    <!--
+        springboot项目都要继承springboot父工程
+        作用：管理所有需要的jar版本
+     -->
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -19,7 +22,8 @@
     </parent>
 
     <dependencies>
-        <!--增加了springboot框架的web模块启动器-->
+        <!--增加了springboot框架的web模块启动器（将web开发环境所需要的jar包都引入到当前项目中了）
+            功能：集成springmvc,tomcat,支持restful,默认集成核心启动器（自动配置，logging,yaml）-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>

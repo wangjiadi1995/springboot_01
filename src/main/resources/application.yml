@@ -1,0 +1,14 @@
+server:
+  port: 8090
+spring:
+  jdbc:
+    datasource:
+      driverClassName: com.mysql.jdbc.driver
+      url: jdbc:mysql:///springboot_01
+      username: root111
+      password: root111
+user:
+  ageList:
+    - 22
+    - 33
+    - 44

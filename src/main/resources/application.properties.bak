@@ -1,0 +1,9 @@
+#修改框架配置
+server.port=8090
+
+
+#自定义配置，演示程序中如何获取配置
+spring.jdbc.datasource.driverClassName=com.mysql.jdbc.driver
+spring.jdbc.datasource.url=jdbc:mysql:///springboot_01
+spring.jdbc.datasource.username=root
+spring.jdbc.datasource.password=root
